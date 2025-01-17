@@ -1,16 +1,16 @@
 [
     {
         "id": 1,
-        "title": "First post",
-        "content": "This is the first post."
+        "title": "a first post",
+        "content": "zee last content"
     },
     {
         "id": 2,
-        "title": "New dazzle-ing Post with extra",
-        "content": "This is an dazzle-ing post"
+        "title": "z last post",
+        "content": "an amazing first content"
     },
     {
-        "content": "This is a new new  post",
+        "content": "a second post",
         "title": "New Post with Dazzle",
         "id": 3
     }
