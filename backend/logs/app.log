@@ -1,89 +1,57 @@
-2025-01-17 08:21:33,892 - blog_logic - INFO - New BlogLogic instance created
-2025-01-17 08:21:33,892 - blog_logic - INFO - Attempting to open persistent storage
-2025-01-17 08:21:33,893 - blog_logic - INFO - Persistant storage opened as local storage
-2025-01-17 08:21:42,547 - backend_app - INFO - Incoming  PUT from 127.0.0.1
-2025-01-17 08:21:50,154 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:22:10,508 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:22:57,105 - blog_logic - INFO - New BlogLogic instance created
-2025-01-17 08:22:57,106 - blog_logic - INFO - Attempting to open persistent storage
-2025-01-17 08:22:57,106 - blog_logic - INFO - Persistant storage opened as local storage
-2025-01-17 08:22:59,639 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:23:11,418 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:23:31,365 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:23:46,194 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:23:54,483 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:23:54,487 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
-2025-01-17 08:23:54,488 - blog_logic - WARNING - No posts found with matching search_pattern: dazzle
-2025-01-17 08:23:54,488 - backend_app - ERROR - Exception on /api/posts [GET]
+2025-01-17 13:47:49,872 - blog_logic - INFO - New BlogLogic instance created
+2025-01-17 13:47:49,872 - blog_logic - INFO - Attempting to open persistent storage
+2025-01-17 13:47:49,872 - blog_logic - INFO - Persistant storage opened as local storage
+2025-01-17 13:47:52,772 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:48:03,056 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:48:04,372 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:48:14,346 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:48:14,347 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
+2025-01-17 13:48:14,347 - blog_logic - INFO - 1 post(s) found with matching search_pattern: dazzle
+2025-01-17 13:48:16,771 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:48:16,771 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
+2025-01-17 13:48:16,772 - blog_logic - INFO - 1 post(s) found with matching search_pattern: dazzle
+2025-01-17 13:54:32,297 - blog_logic - INFO - New BlogLogic instance created
+2025-01-17 13:54:32,297 - blog_logic - INFO - Attempting to open persistent storage
+2025-01-17 13:54:32,297 - blog_logic - INFO - Persistant storage opened as local storage
+2025-01-17 13:54:36,214 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:54:36,216 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
+2025-01-17 13:54:36,216 - blog_logic - INFO - 1 post(s) found with matching search_pattern: dazzle
+2025-01-17 13:54:43,529 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:54:50,405 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:54:50,406 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
+2025-01-17 13:54:50,406 - blog_logic - INFO - 1 post(s) found with matching search_pattern: dazzle
+2025-01-17 13:54:53,552 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:54:53,552 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
+2025-01-17 13:54:53,552 - blog_logic - INFO - 1 post(s) found with matching search_pattern: dazzle
+2025-01-17 13:54:53,553 - blog_logic - INFO - Starting to sort posts by criteria: sort='title', direction=None
+2025-01-17 13:54:53,553 - backend_app - ERROR - Exception on /api/posts [GET]
 Traceback (most recent call last):
   File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
     response = self.full_dispatch_request()
-  File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask/app.py", line 920, in full_dispatch_request
-    return self.finalize_request(rv)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^
-  File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask/app.py", line 939, in finalize_request
-    response = self.make_response(rv)
-  File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask/app.py", line 1212, in make_response
-    raise TypeError(
-    ...<3 lines>...
-    )
-TypeError: The view function for 'get_posts' did not return a valid response. The function either returned None or ended without a return statement.
-2025-01-17 08:26:33,419 - blog_logic - INFO - New BlogLogic instance created
-2025-01-17 08:26:33,419 - blog_logic - INFO - Attempting to open persistent storage
-2025-01-17 08:26:33,420 - blog_logic - INFO - Persistant storage opened as local storage
-2025-01-17 08:26:39,576 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:26:39,578 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
-2025-01-17 08:26:39,578 - blog_logic - WARNING - No posts found with matching search_pattern: dazzle
-2025-01-17 08:27:15,694 - blog_logic - INFO - New BlogLogic instance created
-2025-01-17 08:27:15,695 - blog_logic - INFO - Attempting to open persistent storage
-2025-01-17 08:27:15,695 - blog_logic - INFO - Persistant storage opened as local storage
-2025-01-17 08:27:19,350 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:27:19,351 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
-2025-01-17 08:27:19,352 - blog_logic - INFO - 2 post(s) found with matching search_pattern: dazzle
-2025-01-17 08:27:54,699 - blog_logic - INFO - New BlogLogic instance created
-2025-01-17 08:27:54,699 - blog_logic - INFO - Attempting to open persistent storage
-2025-01-17 08:27:54,699 - blog_logic - INFO - Persistant storage opened as local storage
-2025-01-17 08:28:03,912 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:28:03,914 - blog_logic - INFO - Starting filter post routine with search patter: Dazzle
-2025-01-17 08:28:03,914 - blog_logic - INFO - 2 post(s) found with matching search_pattern: Dazzle
-2025-01-17 08:28:06,098 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:28:06,099 - blog_logic - INFO - Starting filter post routine with search patter: Dazzle
-2025-01-17 08:28:06,099 - blog_logic - INFO - 2 post(s) found with matching search_pattern: Dazzle
-2025-01-17 08:29:24,769 - blog_logic - INFO - New BlogLogic instance created
-2025-01-17 08:29:24,769 - blog_logic - INFO - Attempting to open persistent storage
-2025-01-17 08:29:24,769 - blog_logic - INFO - Persistant storage opened as local storage
-2025-01-17 08:29:31,568 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:29:43,437 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:29:43,438 - blog_logic - INFO - Starting filter post routine with search patter: Dazzle
-2025-01-17 08:29:43,438 - blog_logic - INFO - 2 post(s) found with matching search_pattern: Dazzle
-2025-01-17 08:31:00,847 - backend_app - INFO - Incoming  PUT from 127.0.0.1
-2025-01-17 08:31:00,848 - blog_logic - INFO - Starting update post routine with id: 2: New Post with extra dazzle
-2025-01-17 08:31:00,848 - blog_logic - INFO - Looking up post from id:2
-2025-01-17 08:31:00,848 - blog_logic - INFO - Post foundNew Post with extra dazzle from id:2
-2025-01-17 08:31:00,849 - blog_logic - INFO - Local storage written to persistent storage /Users/dda/PycharmProjects/Masterblog_api/backend/database/posts.json
-2025-01-17 08:31:00,850 - blog_logic - INFO - New Post with extra dazzle updated
-2025-01-17 08:32:04,954 - blog_logic - INFO - New BlogLogic instance created
-2025-01-17 08:32:04,954 - blog_logic - INFO - Attempting to open persistent storage
-2025-01-17 08:32:04,954 - blog_logic - INFO - Persistant storage opened as local storage
-2025-01-17 08:33:11,169 - backend_app - INFO - Incoming  PUT from 127.0.0.1
-2025-01-17 08:33:11,170 - blog_logic - INFO - Starting update post routine with id: 2: New Post with extra dazzle
-2025-01-17 08:33:11,170 - blog_logic - INFO - Looking up post from id:2
-2025-01-17 08:33:11,170 - blog_logic - INFO - Post foundNew Post with extra dazzle from id:2
-2025-01-17 08:33:11,171 - blog_logic - INFO - Local storage written to persistent storage /Users/dda/PycharmProjects/Masterblog_api/backend/database/posts.json
-2025-01-17 08:33:11,172 - blog_logic - INFO - New Post with extra dazzle updated
-2025-01-17 08:33:39,186 - backend_app - INFO - Incoming  PUT from 127.0.0.1
-2025-01-17 08:33:39,189 - blog_logic - INFO - Starting update post routine with id: 2: New Post with extra dazzle
-2025-01-17 08:33:39,190 - blog_logic - INFO - Looking up post from id:2
-2025-01-17 08:33:39,190 - blog_logic - INFO - Post foundNew Post with extra dazzle from id:2
-2025-01-17 08:33:39,190 - blog_logic - INFO - Local storage written to persistent storage /Users/dda/PycharmProjects/Masterblog_api/backend/database/posts.json
-2025-01-17 08:33:39,190 - blog_logic - INFO - New Post with extra dazzle updated
-2025-01-17 08:34:08,227 - backend_app - INFO - Incoming  PUT from 127.0.0.1
-2025-01-17 08:34:08,228 - blog_logic - INFO - Starting update post routine with id: 2: New dazzle-ing Post with extra
-2025-01-17 08:34:08,228 - blog_logic - INFO - Looking up post from id:2
-2025-01-17 08:34:08,228 - blog_logic - INFO - Post foundNew Post with extra dazzle from id:2
-2025-01-17 08:34:08,228 - blog_logic - INFO - Local storage written to persistent storage /Users/dda/PycharmProjects/Masterblog_api/backend/database/posts.json
-2025-01-17 08:34:08,230 - blog_logic - INFO - New dazzle-ing Post with extra updated
-2025-01-17 08:34:19,382 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:34:35,107 - backend_app - INFO - Incoming  GET from 127.0.0.1
-2025-01-17 08:34:35,109 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
-2025-01-17 08:34:35,109 - blog_logic - INFO - 2 post(s) found with matching search_pattern: dazzle
+  File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/dda/Library/Caches/pypoetry/virtualenvs/masterblog-api-XSAuswPX-py3.13/lib/python3.13/site-packages/flask_limiter/extension.py", line 1298, in __inner
+    return cast(R, flask.current_app.ensure_sync(obj)(*a, **k))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/dda/PycharmProjects/Masterblog_api/backend/backend_app.py", line 54, in get_posts
+    sorted_posts = blog.sort_posts(filtered_posts = posts, sort=sort, direction=direction)
+  File "/Users/dda/PycharmProjects/Masterblog_api/backend/blog_logic.py", line 94, in sort_posts
+    direction_bool = direction.lower() != "asc"
+                     ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+2025-01-17 13:56:09,694 - blog_logic - INFO - New BlogLogic instance created
+2025-01-17 13:56:09,694 - blog_logic - INFO - Attempting to open persistent storage
+2025-01-17 13:56:09,695 - blog_logic - INFO - Persistant storage opened as local storage
+2025-01-17 13:56:13,085 - backend_app - INFO - Incoming  GET from 127.0.0.1
+2025-01-17 13:56:13,086 - blog_logic - INFO - Starting filter post routine with search patter: dazzle
+2025-01-17 13:56:13,086 - blog_logic - INFO - 1 post(s) found with matching search_pattern: dazzle
+2025-01-17 13:56:13,086 - blog_logic - INFO - Starting to sort posts by criteria: sort='title', direction='asc'
+2025-01-17 13:56:13,086 - blog_logic - INFO - Posts sorted by criteria: sort='title', direction='asc'
